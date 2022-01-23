@@ -20,7 +20,7 @@ const data = [
 function totalpopulation(arr) {
    // since we are calculating total, initial value of accumulator is set to 0
    let total = arr.reduce((acc, elem) => {
-     //your code here...
+     acc += elem.pop;
    }, 0)
   return total;
 }
@@ -53,7 +53,7 @@ function calAvgCalories(arr) {
    // your code here...
 
 }
-
+/*
 // Invoking and running the function
 let total = calAvgCalories(menu)
 console.log(total) // Answer should be 208.29 
@@ -79,4 +79,4 @@ let total = calAvgCalories(menu)
 console.log(total) // Answer should be 208.29 
 
 let output = calAvgCalories([])
-console.log(output) // Answer should be 0
+console.log(output) // Answer should be 0*/
